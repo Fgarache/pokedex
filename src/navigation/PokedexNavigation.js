@@ -8,8 +8,8 @@ const stack = createStackNavigator ();
 export default function FavoriteNavigation() {
   return (
     <stack.Navigator>
-        <stack.Screen name='Pokemons' component={Pokemon}/>
         <stack.Screen name='Pokemon' component={Pokedex}/>
+        <stack.Screen name='Pokemons' component={Pokemon}/>
     </stack.Navigator>
   )
 }

@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   flatListContentContainer: {
     paddingHorizontal: 5,
   },
-});
+})

@@ -36,7 +36,7 @@ export default function Pokedex() {
 
       setPokemons ([...pokemons, ...pokemosArray]);
     } catch (error) {
-      console.log (error);
+    
     }
   }
   

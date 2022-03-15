@@ -6,7 +6,7 @@ import PokemonList from "../components/PokemonList";
 //obtener datos de la api
 export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
-  console.log("pokemons--->", pokemons);
+  
 
   useEffect(() => {
       (async ()=> {
@@ -22,8 +22,7 @@ export default function Pokedex() {
 
       for await (const pokemon of response.results) {
       const pokemonDetails = await getPokemonDetailsByUrlApi(pokemon.url);
-      console.log (pokemonDetails)
-
+      
           pokemosArray.push({
             id: pokemonDetails.id,
             name: pokemonDetails.name,

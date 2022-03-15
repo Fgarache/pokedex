@@ -17,8 +17,8 @@ export default function PokemonCard(props) {
   const bgStyles = { backgroundColor: pokemonColor, ...styles.bgStyles };
 
   const goToPokemon = () => {
-    console.log(`Vamos al pokemon: ${pokemon.name}`);
-    console.log(pokemon);
+    
+    
   };
 
   return (
@@ -41,7 +41,7 @@ export default function PokemonCard(props) {
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    height: 250,
+    height: 240,
   },
   spacing: {
     flex: 1,
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 2,
     right: 2,
-    width: 220,
-    height: 200,
+    width: 190,
+    height: 190,
   },
 });

@@ -19,6 +19,6 @@ export default function PokemonList(props) {
 
 const styles = StyleSheet.create({
   flatListContentContainer: {
-    paddingHorizontal: 5,
+    paddingHorizontal: 10,
   },
 })

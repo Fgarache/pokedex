@@ -1,4 +1,4 @@
-export const API_HOST = "https://pokeapi.co/api/v2/pokemon?limit=30&offset=0";
+export const API_HOST = "https://pokeapi.co/api/v2/pokemon?limit=15&offset=0";
 
 export const POKEMON_TYPE_COLORS = {
     normal: "#A8A878",
